@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Panel de Usuario</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="user-panel">
+		<h2>PANEL DE USUARIO</h2>
+		<form id="login-form">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<button type="submit">Iniciar Sesin</button>
+		</form>
+		
+		<!-- Contenido de usuario -->
+		<div id="user-content">
+			<h3>Bienvenido, <span id="username-display"></span>!</h3>
+			<p>Este es tu panel de usuario.</p>
+			<button id="logout-btn">Cerrar Sesin</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

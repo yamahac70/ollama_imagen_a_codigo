@@ -1,0 +1,16 @@
+#panel-user {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#panel-user h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#panel-user p {
+    font-size: 16px;
+}
